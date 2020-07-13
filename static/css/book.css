@@ -1,0 +1,55 @@
+body{
+    background-color:beige;
+}
+.title {
+    text-align: center;
+    color: #22777c;
+    margin: 0px 200px 0px 50px;
+}
+.chart-all {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.chart {
+    position: absolute;
+    border: 2px solid silver;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+/*:hover 表示鼠标移入之后的状态*/
+.chart:hover {
+    border: 2px solid white;
+    /*transform: scale(1.1);*/
+}
+#pie {
+    width: 27%;
+    height: 280px;
+    margin: 10px;
+    top: 0px;
+    left: 710px;
+    /*right: 180px;*/
+
+}
+#bar {
+    width: 52%;
+    height: 280px;
+    margin: 10px;
+    top: 0px;
+    left: 50px;
+}
+#line {
+    width: 80%;
+    height: 280px;
+    margin: 10px;
+    top: 290px;
+    left: 50px;
+}
+
+.left {
+    left: 25px;
+}
+
+.right {
+    right: 25px;
+}
